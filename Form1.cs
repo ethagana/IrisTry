@@ -52,7 +52,7 @@ namespace IRISTRY
 
         private readonly IiDataIris _iDataIris = new iDataIrisClass();
 
-        private static string connectionstring = "server=localhost;database=iris_rsrch;uid=root;pwd=mysql2017;convert zero datetime=True";
+        private static string connectionstring = "server=localhost;database=iris_rsrch;uid=root;pwd=;convert zero datetime=True";
 
         private void CreateImageFolders()
         {
